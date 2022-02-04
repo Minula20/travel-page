@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The University Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+            <nav id="navbar">
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Where to go</a></li>
+                    <li><a href="#">What the area</a></li>
+                    <li><a href="#">Picture Galary</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Foods</a></li>
+                    <li><div class="login-btn"><a href="#"><span></span>Login</a></div></li>
+                    
+
+                </ul>
+              
+            </nav>
+            <div class="social-media">
+                <a href="#">FACEBOOK</a>
+                <a href="#">TWITTWER</a>
+                <a href="#">INSTERGRAM</a>>
+            </div>
+            <div class="line"></div>
+    </div>
+    
+
+    <script>
+        var navbar= document.getElementById("navbar");
+
+        window.onscroll=function(){
+            if(window.pageXOffset>=menu.pageXOffsetTop){
+            navbar.classList.add("sticky");
+            }
+
+            else{
+            navbar.classList.remove("sticky");
+        }
+    }
+    
+
+    </script>
+</body>
+
+</html>
