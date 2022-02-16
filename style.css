@@ -78,7 +78,7 @@ nav ul li a{
     left:0;
     background: #fff;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 .login-btn a:hover span{
     width:100%;
