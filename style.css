@@ -107,12 +107,12 @@ nav ul li a{
 .features{
     flex-basis: 50%;
 }
-.features-img{
+.feature-img{
     flex-basis: 50%;
     margin: auto;
     
 }
-.features-img img{
+.feature-img img{
     width: 70%;
     border-radius: 25px;
     
