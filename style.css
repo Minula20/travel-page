@@ -99,4 +99,50 @@ nav.sticky{
     align-items: center;
     justify-content: space-between;
 }
+}
+.title-text h1{
+    font-size: 50px;
+    text-align: center;
+}
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.feature-box h1{
+    
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.features{
+    flex-basis: 50%;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+    
+}
+.features-img img{
+    width: 70%;
+    border-radius: 25px;
+    
+   
+    
+}
+.features-text p{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #006c96;
+}
+.features-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
 
