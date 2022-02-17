@@ -12,7 +12,7 @@
     background-position: center;
 }
 nav{
-    padding:30px 3%;
+    padding:30px 2%;
     display: flex;
     align-items: center;
 }
@@ -78,7 +78,7 @@ nav ul li a{
     left:0;
     background: #fff;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 .login-btn a:hover span{
     width:100%;
@@ -87,23 +87,11 @@ nav ul li a{
     color:#000;
 }
 .text{
-    margin:10px 20px;
-}
-nav.sticky{
-    position: fixed;
-    top:0;
-    left: 0;
-    padding: 10px 8%;
-    background: #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-}
-.title-text h1{
+    margin:10px 20px;}
+    .title-text h1{
     font-size: 50px;
-    text-align: center;
-}
+    }
+
 .feature-box{
     width: 80%;
     margin: auto;
@@ -144,5 +132,16 @@ nav.sticky{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+}
+
+nav.sticky{
+    position: fixed;
+    top:0;
+    left: 0;
+    padding: 10px 8%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
